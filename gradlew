@@ -26,3 +26,4 @@ else
 fi
 
 exec "$JAVA_EXEC" $DEFAULT_JVM_OPTS $JAVA_OPTS -classpath "$CLASSPATH" org.gradle.wrapper.GradleWrapperMain "$@"
+chmod +x gradlew
